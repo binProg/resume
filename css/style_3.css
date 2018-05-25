@@ -1,5 +1,7 @@
 body{
     width: 90%;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -17,12 +19,12 @@ h1{
 }
 
 .subtitle{
-    margin-top: 10px;
     background-color: #C0C0C0;
     float: left;
     margin-right: 4%;
     width: 16%;
     height: 15.8%;
+    text-align: center;
 }
 
 .details{
@@ -30,6 +32,8 @@ h1{
     width: 80%;
     height: 15.8%;
 }
+
+
 
 ul,ol{
     list-style: none;
