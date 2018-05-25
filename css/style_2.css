@@ -1,0 +1,36 @@
+body{
+    width:90%;
+}
+
+.header{
+    width: 13%;
+    height: 100%;
+    float: left;
+    margin-right: 4%;
+    text-align: center;
+    background-color:#00FFFF;
+}
+
+.container{
+    width: 83%;
+    float: right;
+}
+
+#main{
+    display: flex;
+}
+
+#main div{
+    flex: 1;
+}
+
+ul li{
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+ol{
+    list-style-type: none;
+}

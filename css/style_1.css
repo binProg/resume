@@ -1,0 +1,13 @@
+ul li{
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+ol{
+    list-style-type: none;
+}
+
+.container{
+    padding: 0;
+}
