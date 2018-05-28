@@ -1,7 +1,5 @@
 body{
     width: 90%;
-    margin: 0;
-    padding: 0;
 }
 
 .header{
@@ -12,28 +10,66 @@ body{
 }
 
 h1{
-    font-size: 26px;
+    font-size: 20px;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 16px;
+    padding-left: 10px;
 }
 
-.subtitle{
+.basic_info{
+    margin-top: 0px;
     background-color: #C0C0C0;
     float: left;
-    margin-right: 4%;
+    margin-right: 3%;
     width: 16%;
     height: 15.8%;
     text-align: center;
 }
 
-.details{
-    float: right;
-    width: 80%;
+.contact{
+    margin-top: 0px;
+    background-color: #C0C0C0;
+    float: left;
+    margin-right: 3%;
+    width: 16%;
     height: 15.8%;
+    text-align: center;
 }
 
+.ability{
+    margin-top: 3px;
+    background-color: #C0C0C0;
+    float: left;
+    margin-right: 3%;
+    width: 16%;
+    height: 15.8%;
+    border: 1px solid transparent;
+    text-align: center;
+}
 
+.education{
+    margin-top: 3px;
+    background-color: #C0C0C0;
+    float: left;
+    margin-right: 3%;
+    width: 16%;
+    height: 15.8%;
+    text-align: center;
+}
+
+.project{
+    margin-top: 3px;
+    background-color: #C0C0C0;
+    float: left;
+    margin-right: 3%;
+    width: 16%;
+    height: 15.8%;
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+}
 
 ul,ol{
     list-style: none;
@@ -41,6 +77,5 @@ ul,ol{
 
 ul li{
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
 }
-
